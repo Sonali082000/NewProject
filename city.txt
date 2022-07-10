@@ -1,0 +1,28 @@
+//SET A Question 1
+//Write a java program to accept names of 'n' cities insert same into array list 
+//collection and display the content of same array list ,also remove all these elements.
+import java.util.*;
+
+class cities
+{
+public static void main(String args[])
+{
+
+ArrayList<String> a=new ArrayList<String>();
+
+
+System.out.println("enter cities");
+Scanner sc=new Scanner(System.in);
+
+String i=sc.nextLine();
+a.add(i);
+System.out.println("cities name = "+a); 
+
+
+
+a.clear();
+System.out.println("removing all elements =" +a);
+
+
+}
+}
